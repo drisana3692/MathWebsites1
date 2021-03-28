@@ -32,14 +32,19 @@ text-align: center;
 }
 .links {
     float: left; 
-    color: lightsteelblue;
+    color: lightcyan;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 9px;
     padding-left: 9px;
-    font-family: sans-serif;
+    font-family: cursive;
     font-size: 20px;
 }
+ul:hover {
+color: lightseagreen;
+    font-size: 25;
+    font-family: serif;
+    }
 .line {
     height: 6px;
     background-color: black;
@@ -70,7 +75,7 @@ html{
 }
 #inspire {
     text-align: center;
-    background: linear-gradient( #a1c4fd,#66a6ff);
+    background: linear-gradient(#a3eb60,#033b38);
 }
 #inspireparagraph {
     color: white;
@@ -81,4 +86,11 @@ img {
 img:hover {
     transform: scale(0.9);
 }
+#contacts {
+     background: linear-gradient(#1b1140,#fa8c75);
 }
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
